@@ -2,9 +2,10 @@
   "name": "CoolerEpicLootChests",
   "author": "OdinPlus",
   "description": "Pimp your treasure chests!",
-  "version_number": "2.0.2",
+  "version_number": "1.0.0",
   "website_url": "",
   "dependencies": [
-    "denikson-BepInExPack_Valheim-5.4.1601"
+    "denikson-BepInExPack_Valheim-5.4.1601",
+    "RandyKnapp-EpicLoot-0.8.7"
   ]
 }

@@ -277,22 +277,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\Guilds\Unity\ClansUI\Assets\ARPG Effects\Scripts\ARPGFXLightFade.cs">
+    <Compile Include="D:\HearthNHome\valheim\Assets\Custom\CoolerChests\Scripts\ARPGFXLightFade.cs">
       <Link>MonoScripts\ARPGFXLightFade.cs</Link>
     </Compile>
-    <Compile Include="..\..\Guilds\Unity\ClansUI\Assets\ARPG Effects\Scripts\ARPGFXLightFlicker.cs">
+    <Compile Include="D:\HearthNHome\valheim\Assets\Custom\CoolerChests\Scripts\ARPGFXLightFlicker.cs">
       <Link>MonoScripts\ARPGFXLightFlicker.cs</Link>
     </Compile>
-    <Compile Include="..\..\Guilds\Unity\ClansUI\Assets\ARPG Effects\Scripts\ARPGFXPortalScript.cs">
+    <Compile Include="D:\HearthNHome\valheim\Assets\Custom\CoolerChests\Scripts\ARPGFXPortalScript.cs">
       <Link>MonoScripts\ARPGFXPortalScript.cs</Link>
     </Compile>
-    <Compile Include="..\..\Guilds\Unity\ClansUI\Assets\ARPG Effects\Scripts\ARPGFXRotation.cs">
+    <Compile Include="D:\HearthNHome\valheim\Assets\Custom\CoolerChests\Scripts\ARPGFXRotation.cs">
       <Link>MonoScripts\ARPGFXRotation.cs</Link>
     </Compile>
-    <Compile Include="..\..\Guilds\Unity\ClansUI\Assets\ARPG Effects\Scripts\IconThing.cs">
+    <Compile Include="D:\HearthNHome\valheim\Assets\Custom\CoolerChests\Scripts\IconThing.cs">
       <Link>MonoScripts\IconThing.cs</Link>
     </Compile>
-    <Compile Include="..\..\Guilds\Unity\ClansUI\Assets\ARPG Effects\Scripts\LootFX.cs">
+    <Compile Include="D:\HearthNHome\valheim\Assets\Custom\CoolerChests\Scripts\LootFX.cs">
       <Link>MonoScripts\LootFX.cs</Link>
     </Compile>
     <Compile Include="ModCore.cs" />
@@ -301,6 +301,9 @@
     <Compile Include="Utilities.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="D:\HearthNHome\valheim\AssetBundles\StandaloneWindows\coolerloot">
+      <Link>Assets\coolerloot</Link>
+    </EmbeddedResource>
     <Content Include="Thunderstore\Capture.2PNG.PNG" />
     <Content Include="Thunderstore\Capture.PNG" />
     <Content Include="Thunderstore\manifest.json" />
@@ -308,9 +311,6 @@
     <Content Include="Thunderstore\screen1.PNG" />
     <EmbeddedResource Include="Libs\DemiLib.dll" />
     <EmbeddedResource Include="Libs\DOTween.dll" />
-    <EmbeddedResource Include="D:\HearthNHome\valheim\AssetBundles\StandaloneWindows\coolerloot">
-      <Link>Assets\coolerloot</Link>
-    </EmbeddedResource>
     <Content Include="Libs\EpicLoot.dll" />
     <Content Include="Libs\ExtendedItemDataFramework.dll" />
   </ItemGroup>

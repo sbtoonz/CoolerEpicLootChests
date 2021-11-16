@@ -15,6 +15,8 @@ namespace CoolerEpicLootChests
         private const string ModGUID = "com.zarboz.CoolerEpicLootChests";
         public static GameObject testfx2 { get; set; }
         public static GameObject testfx1 { get; set; }
+        public static GameObject treasurebox{ get; set; }
+        public static GameObject vfx_open { get; set; }
 
         public static ConfigEntry<IconThing.IconType> TypeOfIcon;
 
@@ -27,6 +29,8 @@ namespace CoolerEpicLootChests
             var assetbundle = Utilities.LoadAssetBundle("coolerloot");
             testfx1 = assetbundle.LoadAsset<GameObject>("IconGameObject");
             testfx2 = assetbundle.LoadAsset<GameObject>("LootFX");
+            treasurebox = assetbundle.LoadAsset<GameObject>("piece_loot_chest");
+            vfx_open = assetbundle.LoadAsset<GameObject>("vfx_loot_open");
 
             TypeOfIcon = Config.Bind("Cooler Epic Loot", "Value For Icon",IconThing.IconType.Exclaim,
                 new ConfigDescription(" This is the Default kind of icon"));
